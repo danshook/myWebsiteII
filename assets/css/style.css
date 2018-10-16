@@ -1,4 +1,5 @@
 body {
+    height: 100%;
     margin: 0;
     font-family: 'Walter Turncoat', cursive;
 
@@ -58,4 +59,19 @@ nav li {
     display: inline-block;
     margin-left: 70px;
     padding-top: 20px;
+}
+
+main {
+    height: 700px;
+    width: 100%;
+    background-color: blue;
+}
+
+.bg_image {
+    height: 100%;
+    width: 100%;
+}
+
+footer {
+    background-color: green;
 }
