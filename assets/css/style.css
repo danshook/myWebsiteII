@@ -1,14 +1,16 @@
 body {
     margin: 0;
+    font-family: 'Walter Turncoat', cursive;
+
 }
 
-.container {
+.container_header {
     width: 80%;
     margin: 0 auto;
 }
 
 header {
-    background: black;
+    background: rgba(0, 0, 0, 0.8);
 }
 
 header::after {
@@ -20,15 +22,26 @@ header::after {
 .logo {
     color: white;
     float: left;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.logo:hover {
+    color: orange;
 }
 
 nav {
     float: right;
 }
 
+ul {
+    line-height: 50px;
+}
+
 nav ul li a {
     color: white;
     text-decoration: none;
+    line-height: normal;
 }
 
 nav ul li a:hover {
@@ -45,5 +58,4 @@ nav li {
     display: inline-block;
     margin-left: 70px;
     padding-top: 20px;
-    
 }
