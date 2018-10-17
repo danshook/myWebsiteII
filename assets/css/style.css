@@ -82,7 +82,7 @@ main {
     left: 50%;
     transform: translate(-50%, -30%);
     font-size: 60px;
-    opacity: 0.2;
+    opacity: 0.3;
     border-radius: 50%;
 }
 
@@ -92,17 +92,41 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 40px;
+    opacity: 0.3;
 }
 
 footer {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: green;
+    background: rgba(0, 0, 0, 0.8);
 }
 
 .copyright {
     margin: 0;
     padding: 0;
     text-align: center;
+    color: black;
+}
+
+.title_heading {
+    margin-right: 35%;
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    font-size: 20px;
+    opacity: 0.6;
+    background: black;
+    color: white;
+}
+
+.blog_1 {
+    /* margin-right: 35%;
+    position: absolute;
+    top: 20%;
+    left: 2%; */
+    font-size: 20px;
+    opacity: 0.6;
+    background: black;
+    color: white;
 }
