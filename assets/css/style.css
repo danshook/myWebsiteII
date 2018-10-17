@@ -35,8 +35,16 @@ nav {
     float: right;
 }
 
-ul {
-    line-height: 50px;
+nav ul {
+    margin: 0;
+    padding-top: 20px;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 20px;
 }
 
 nav ul li a {
@@ -47,18 +55,6 @@ nav ul li a {
 
 nav ul li a:hover {
     color: orange;
-}
-
-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-nav li {
-    display: inline-block;
-    margin-left: 70px;
-    padding-top: 20px;
 }
 
 main {
