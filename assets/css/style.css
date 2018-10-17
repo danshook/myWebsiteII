@@ -66,7 +66,7 @@ main {
     padding: 0;
     height: 700px;
     width: 100%;
-    background-color: blue;
+    background-color: rgb(129, 129, 138);
 }
 
 .bg_image {
@@ -114,17 +114,32 @@ footer {
     position: absolute;
     top: 20%;
     left: 2%;
-    font-size: 20px;
+    font-size: 30px;
+    opacity: 0.6;
+    background: black;
+    color: white;
+}
+
+.title_heading h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 35px;
+    opacity: 0.6;
+    background: black;
+    color: white;
+}
+
+
+.title_heading h5 {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
     opacity: 0.6;
     background: black;
     color: white;
 }
 
 .blog_1 {
-    /* margin-right: 35%;
-    position: absolute;
-    top: 20%;
-    left: 2%; */
     font-size: 20px;
     opacity: 0.6;
     background: black;
