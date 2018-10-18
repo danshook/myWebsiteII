@@ -104,8 +104,8 @@ footer {
     color: black;
 }
 
-.title_heading {
-    margin-right: 35%;
+.blog_box_1 {
+    margin-right: 40%;
     position: absolute;
     top: 20%;
     left: 2%;
@@ -115,9 +115,9 @@ footer {
     color: white;
 }
 
-.title_heading h3 {
+.blog_box_1 h3 {
     margin: 0;
-    padding: 0;
+    padding: 0 2%;
     font-size: 35px;
     opacity: 0.6;
     background: black;
@@ -125,18 +125,19 @@ footer {
 }
 
 
-.title_heading h5 {
+.blog_box_1 h5 {
     margin: 0;
-    padding: 0;
+    padding: 0 2%;
     font-size: 15px;
     opacity: 0.6;
     background: black;
     color: white;
 }
 
-.blog_1 {
+.blog_article_1 {
     font-size: 20px;
     opacity: 0.6;
     background: black;
     color: white;
+    padding: 0 2%;
 }
