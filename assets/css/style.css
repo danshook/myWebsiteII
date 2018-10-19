@@ -162,3 +162,16 @@ footer {
     font-size: 30px;
     opacity: 0.8;
 }
+
+.resume_container {
+    text-align: center;
+    width: 100%;
+}
+.resume {
+    margin: 4%;
+    /* padding: 2%; */
+    display: inline-block;
+    border-style: solid;
+    border-width: 20px;
+    border-color: black;
+}
