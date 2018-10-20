@@ -218,6 +218,16 @@ footer {
     box-shadow: -5px -5px #777777;
 }
 
+.resume_4 {
+    position: absolute;
+    top: 205px;
+    left: 373px;
+    -moz-box-shadow: -5px -5px #777777;
+    -webkit-box-shadow: -5px -5px #777777;
+    box-shadow: -5px -5px #777777;
+    margin-bottom: 5%;
+}
+
 .contact_container {
     background: url(../images/gray_background.jpeg);
     width: 100%;
